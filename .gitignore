@@ -31,3 +31,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# ignore logs
+logs
+*.log
+
+# ignore .env
+/**/resources/*.env
+/**/resources/*.env.properties
