@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/${spring.application.name}_${spring.datasource.database-name-postfix}
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
